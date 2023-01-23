@@ -5,4 +5,21 @@ public class Person {
         this.name = name;
         this.address = address;
     }
+
+    public String toString(){
+        return "Person[name: " + name + ", address: " + address;
+    }
+
+    // Getter and setters
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress(){
+        return address;
+    }
+
+    public void setName(String newName) {
+        this.name = newName;
+    }
 }
