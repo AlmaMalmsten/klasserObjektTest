@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -42,11 +41,11 @@ public class Main {
     static void test(){
         Staff staff1 = new Staff("1", "111", "school", 11);
         Staff staff2 = new Staff("2", "222", "school", 22);
-        Student studen1 = new Student("Studen1", "1111", "Pro1", 1, 111);
-        Student studen2 = new Student("Studen2", "2222", "Pro2", 2, 222);
-        Student studen3 = new Student("Studen3", "1111", "Pro1", 1, 111);
-        Student studen4 = new Student("Studen4", "1111", "Pro1", 1, 111);
-        Student studen5 = new Student("Studen5", "1111", "Pro1", 1, 111);
+        Student student1 = new Student("Student1", "1111", "Pro1", 1, 111);
+        Student student2 = new Student("Student2", "2222", "Pro2", 2, 222);
+        Student student3 = new Student("Student3", "1111", "Pro1", 1, 111);
+        Student student4 = new Student("Student4", "1111", "Pro1", 1, 111);
+        Student student5 = new Student("Student5", "1111", "Pro1", 1, 111);
         System.out.println(staff1.getName());
     }
 
