@@ -39,13 +39,6 @@ public class Main {
 
     }
 
-
-    static void creatStaff(){
-
-    }
-    static void creatStudent(){
-
-    }
     static void test(){
         Staff staff1 = new Staff("1", "111", "school", 11);
         Staff staff2 = new Staff("2", "222", "school", 22);
